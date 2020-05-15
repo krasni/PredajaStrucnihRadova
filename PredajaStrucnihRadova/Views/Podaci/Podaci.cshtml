@@ -1,0 +1,194 @@
+﻿@model PredajaStrucnihRadova.Models.Podaci
+
+@{
+    ViewBag.Title = "Online predaja prijedloga za stručni rad";
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online predaja prijedloga za stručni rad</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="~/Content/screen.css">
+    <link rel="stylesheet" media="screen" href="~/Content/styles.css">
+    <link rel="stylesheet" media="screen" href="~/Content/Site.css">
+    <link rel="stylesheet" href="~/Content/cookiealert.css">
+    <link rel="stylesheet" href="~/Content/themes/base/jquery-ui.min.css">
+
+    <style type="text/css">
+        .progress {
+            border: 5px solid;
+        }
+
+        .progress-bar {
+            background: #369;
+            line-height: 50px;
+            display: inline-block;
+        }
+
+        .progress span {
+            display: block;
+            margin: 0px auto;
+            width: 40px;
+            margin-top: -50px;
+            line-height: 50px;
+            color: #fff;
+        }
+    </style>
+
+    <script src="https://kit.fontawesome.com/3cce785412.js" SameSite="none Secure" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form1" role="form" method="post" enctype="multipart/form-data">
+            <a href="http://www.hanfa.hr"><img src="~/Content/images/hanfa-logo.png" style="padding:5px;" alt="Company logo" /></a>
+
+            @Html.HiddenFor(model => model.DownloadToken, new { @id = "download_token_value" })
+            @Html.ValidationSummary(false, "", new { @class = "text-danger font-weight-bold" })
+            @Html.AntiForgeryToken()
+
+            <br />
+            <div class="container-fluid">
+                <p class="lead">
+                    Poštovani, nalazite se na stranici za predaju stručnih radova na temu "Održivo financiranje kao novi oblik investiranja u Hrvatskoj".
+                </p>
+                <p class="lead">
+                    Rok za predaju je 15.kolovoza 2020. godine do 16:00 sati. Molimo vas da predate svu dokumentaciju prema tekstu poziva. Posebno obratite pažnju na imenovanje samih dokumenata. Prijave koje su neispravne ili nepotpune neće se razmatrati.
+                </p>
+
+                <div class="alert alert-success" id="prijavaPredana" role="alert" style="display:none;">Vaša prijava je uspješno predana.</div>
+
+                <div class="form-group required">
+                    <label class="control-label">Prijedlog stručnog rada (150 MB)</label>
+                    <div>
+                        @Html.TextBoxFor(model => model.PrijedlogStrucnogRada, "", new { @type = "file", @accept = ".doc,.docx", @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group required">
+                    <label class="control-label">Obavezna popratna dokumentacija (150 MB)</label>
+                    <div>
+                        @Html.TextBoxFor(model => model.PopratnaDokumentacija, "", new { @type = "file", @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <small class="form-text">
+                        (Zaporka od 8 znakova mora poštivati pravilo 5 slova i 3 broja u bilo kojem redoslijedu.)
+                    </small>
+                    </br>
+                    <small class="form-text">
+                        Primjer nomenklature dokumentacije:
+                    </small>
+                    </br>
+                    <small>
+                        •	Za ostalu dokumentaciju:  ABCDE123_1.pdf
+                    </small>
+                    </br>
+                    <small>
+                        •	Za prijedlog stručnog rada: ABCDE123_2.doc
+                    </small>
+                </div>
+
+                <input type="hidden" id="counter" value="0" />
+                <input type="hidden" id="total" value="0" />
+                <input type="hidden" id="filesUploaded" value="0" />
+
+                <div class="form-group col-md-6">
+                    <button type="button" id="btnUpload" class="btn btn-primary">Predaj podatke</button>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer>
+                <p class="copy">
+                    Copyright © 2020. HANFA, Franje Račkoga 6, 10000 Zagreb — Sva prava pridržana
+                </p>
+            </footer>
+        </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Učitavanje datoteka...</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;">
+                            &nbsp;
+                        </div>
+                        <span>60%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" focus="true" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Upozorenje</h1>
+                </div>
+                <div class="modal-body">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Želite li stvarno predati dokumentaciju u Hanfu?</h5>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="SaveFormData()" class="btn btn-primary">Da</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Ne</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="generiranjePotvrde" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Generiranje potvrde...</h1>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- START Bootstrap-Cookie-Alert -->
+    <div class="alert text-center cookiealert" role="alert">
+        Ova aplikacija koristi kolačiće za pružanje boljeg korisničkog iskustva. Cookie postavke mogu se kontrolirati i konfigurirati u vašem web pregledniku. Za nastavak pregleda i korištenja ove aplikacije kliknite na "Slažem se".
+
+        <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+            Slažem se
+        </button>
+    </div>
+    <!-- END Bootstrap-Cookie-Alert -->
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.blockUI.js"></script>
+    <script src="~/Scripts/jquery.cookie.js"></script>
+    <script src="~/Scripts/PredajaStrucnihRadova.js"></script>
+    <script src="~/Scripts/cookiealert.js"></script>
+    <script src="~/Scripts/moment.min.js"></script>
+    <script src="~/Scripts/jquery.ajax-retry.js"></script>
+
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>
+
+<script type="text/javascript">
+    var chunkSizeInMB = "@System.Configuration.ConfigurationManager.AppSettings["ChunkSizeInMB"]";
+</script>

@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .form-horizontal .control-label {
+        text-align: left;
+    }
+}
+
+.form-group.required .control-label:after {
+    color: red;
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-size: 9px;
+    content: "\f069";
+    vertical-align: super;
+}
+
+.form-group.required .form-check-label:after {
+    color: red;
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-size: 9px;
+    content: "\f069";
+    vertical-align: super;
+}
