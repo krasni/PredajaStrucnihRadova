@@ -143,7 +143,7 @@ function UploadFileChunk(FileChunks, FileName, CurrentPart, TotalPart) {
                 var xhr = new window.XMLHttpRequest();
                 xhr.upload.addEventListener("progress", function (e, data) {
                     if (e.lengthComputable) {
-
+                           
                     }
                     else $('#uploadFile').html('hmmm');
                 }, false);
