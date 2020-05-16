@@ -42,6 +42,7 @@ namespace PredajaStrucnihRadova.Controllers
             }
             catch (Exception ex)
             {
+                log.Error("Error", ex);
                 return Json(new { status = false, message = ex.Message });
             }
         }
@@ -78,6 +79,7 @@ namespace PredajaStrucnihRadova.Controllers
                 }
                 catch (Exception ex)
                 {
+                    log.Error("Error", ex);
                     return Json(new { status = false, message = ex.Message });
                 }
             }

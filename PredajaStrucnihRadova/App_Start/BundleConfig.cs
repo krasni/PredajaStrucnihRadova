@@ -25,6 +25,11 @@ namespace PredajaStrucnihRadova
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/mybundle").Include(
+                        "~/Scripts/PredajaStrucnihRadova.js"));
+
+            BundleTable.EnableOptimizations = true;
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿
 $().ready(function () {
 
+    console.log("ef");
+
     var token = new Date().getTime(); //use the current timestamp as the token value
     $('#download_token_value').val(token);
 
@@ -31,16 +33,16 @@ $().ready(function () {
         var dateRegex = /\b(?=(?:\d*[a-zA-Z]){5}(?!\d*[a-zA-Z]))(?=(?:[a-zA-Z]*\d){3}(?![a-zA-Z]*\d))[a-zA-Z\d]+\b/;
         var fileNameWithoutExt = value.substring(0, value.lastIndexOf('.')) || value;
         var zadnjaDvaZnaka = fileNameWithoutExt.slice(-2);
-        var fileNameWithoutExtFirstEightLetters = fileNameWithoutExt.slice(0, 8);
-        return dateRegex.test(fileNameWithoutExtFirstEightLetters) && zadnjaDvaZnaka === '_2';
+        var fileNameWithoutExtAndLastTwoCharacters = fileNameWithoutExt.slice(0, fileNameWithoutExt.length - 2);
+        return dateRegex.test(fileNameWithoutExtAndLastTwoCharacters) && zadnjaDvaZnaka === '_2';
     }, "Neispravan naziv datoteke");
 
     jQuery.validator.addMethod("isOstalaDokumentacijaFileNameValid", function (value, element) {
         var dateRegex = /\b(?=(?:\d*[a-zA-Z]){5}(?!\d*[a-zA-Z]))(?=(?:[a-zA-Z]*\d){3}(?![a-zA-Z]*\d))[a-zA-Z\d]+\b/;
         var fileNameWithoutExt = value.substring(0, value.lastIndexOf('.')) || value;
         var zadnjaDvaZnaka = fileNameWithoutExt.slice(-2);
-        var fileNameWithoutExtFirstEightLetters = fileNameWithoutExt.slice(0, 8);
-        return dateRegex.test(fileNameWithoutExtFirstEightLetters) && zadnjaDvaZnaka === '_1';
+        var fileNameWithoutExtAndLastTwoCharacters = fileNameWithoutExt.slice(0, fileNameWithoutExt.length - 2);
+        return dateRegex.test(fileNameWithoutExtAndLastTwoCharacters) && zadnjaDvaZnaka === '_1';
     }, "Neispravan naziv datoteke");
 
     jQuery.validator.addMethod("isPasswordSame", function (value, element) {
