@@ -102,6 +102,8 @@ $().ready(function () {
 });
 
 function UploadFiles() {
+    JL("UploadFiles").info("Počinjem upload fajlova.");
+
     $('#exampleModalCenter').modal('hide');
 
     var filePrijedlogStrucnogRada = document.getElementById('PrijedlogStrucnogRada').files[0];
@@ -128,6 +130,8 @@ function UploadFiles() {
     for (var i = 0; i < filesToUpload.length; i++) {
         UploadFile(filesToUpload[i]);
     }
+
+    JL("UploadFiles").info("Fajlovi su poslani na upload.");
 }
 
 function UploadFileChunk(FileChunks, FileName, CurrentPart, TotalPart) {
@@ -154,6 +158,7 @@ function UploadFileChunk(FileChunks, FileName, CurrentPart, TotalPart) {
             success: function (data, textStatus, jqXHR) {
                 if (data.status == true) {
                     if (TotalPart == CurrentPart) {
+                        JL("UploadFileChunk").info("Uspješno je uploadana fajla: " + FileName);
                         console.log("whole file uploaded successfully");
 
                         var filesUploaded = parseInt($('#filesUploaded').val()) + 1;
@@ -192,14 +197,24 @@ function UploadFileChunk(FileChunks, FileName, CurrentPart, TotalPart) {
                 }
                 else {
                     console.log("failed to upload file part no: " + CurrentPart);
+
+                    JL("UploadFileChunk").fatal(
+                        {
+                            "msg": "Greška",
+                            "poruka": data.message,
+                            "textStatus": textStatus,
+                            "fileName": FileName,
+                            "currentPart": CurrentPart
+                        });
+
                     alert("Predaja datoteke nije uspjela, molim pokušajte ponovo.");
                 }
             },
             error: function (xhr, textStatus, thrownError) {
-
                 console.log("error to upload file part no: " + CurrentPart);
                 console.log("xhr.status: " + xhr.status);
-                console.log("textStatus: " + textStatus);          
+                console.log("textStatus: " + textStatus);  
+                JL("UploadFileChunk").error("error to upload file part no: " + CurrentPart);
             }
         }).retry({ times: 10, timeout: 10000 }).then(function () {
             console.log("success from retry done");
@@ -209,6 +224,8 @@ function UploadFileChunk(FileChunks, FileName, CurrentPart, TotalPart) {
 
 function DownloadPDF() {
 
+    JL("DownloadPDF").info("Počinjem download PDF potvrde.");
+
     var token = new Date().getTime(); //use the current timestamp as the token value
     $('#download_token_value').val(token);
 
@@ -216,10 +233,20 @@ function DownloadPDF() {
     blockUIForDownload();
 
     window.location = window.location.href + "/" + 'Podaci/DownloadPDF?DownloadToken=' + token;
+
+    JL("DownloadPDF").info("Gotov download PDF potvrde.");
  }
 
 function SaveFormData() {
     var formData = new FormData();
+
+    JL("SaveFormData").info
+        ({
+            "msg": "Saving form data:",
+            "PrijedlogStrucnogRadaFileName": document.getElementById('PrijedlogStrucnogRada').files[0].name,
+            "PopratnaDokumentacijaFileName": document.getElementById('PopratnaDokumentacija').files[0].name,
+            "DownloadToken": $("#download_token_value").val()
+        });
 
     formData.append('PrijedlogStrucnogRadaFileName', document.getElementById('PrijedlogStrucnogRada').files[0].name);
     formData.append('PopratnaDokumentacijaFileName', document.getElementById('PopratnaDokumentacija').files[0].name);
@@ -234,18 +261,30 @@ function SaveFormData() {
             data: formData,
             success: function (data, textStatus, jqXHR) {
                 if (data.status == true) {
+                    JL("SaveFormData").info("Snimanje forme završeno.");
                     UploadFiles();
                 }
                 else {
                     console.log("data: " + data);
                     console.log("textStatus: " + textStatus);
+
+                    JL("SaveFormData").fatal(
+                        {
+                            "msg": "Greška",
+                            "poruka": data.message,
+                            "textStatus": textStatus
+                        });
+
                     alert("Snimanje forme nije uspjelo, pokušajte ponovo.")
                 }
             },
             error: function (xhr, textStatus, thrownError) {
 
                 console.log("xhr.status: " + xhr.status);
-                console.log("textStatus: " + textStatus); 
+                console.log("textStatus: " + textStatus);
+
+                JL("SaveFormData").error({ "thrownError": thrownError});
+
                 alert("Snimanje forme nije uspjelo, pokušajte ponovo.")
             }
         }).retry({ times: 10, timeout: 10000 }).then(function () {
@@ -255,6 +294,9 @@ function SaveFormData() {
 }
 
 function UploadFile(TargetFile) {
+
+    JL("UploadFile").info("Počinjem upload fajle: " + TargetFile.name);
+
     // create array to store the buffer chunks
     var FileChunks = [];
     // the file object itself that we will work with

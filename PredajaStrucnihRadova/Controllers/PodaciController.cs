@@ -105,36 +105,44 @@ namespace PredajaStrucnihRadova.Controllers
         [HttpGet]
         public ActionResult DownloadPDF(string DownloadToken)
         {
-            // otvori word document
-            string filesFolder = System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Potvrde/");
-            string templateFolder = System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Template/");
-
-            Document document = new Document();
-
-            var datumPredaje = String.Format("{0:dd.MM.yyyy.}", System.Web.HttpContext.Current.Session["VrijemePredaje"]);
-            var vrijemePredaje = String.Format("{0:HH:mm:ss}", System.Web.HttpContext.Current.Session["VrijemePredaje"]);
-
-            document.LoadFromFile(Path.Combine(templateFolder, "TemplatePotvrda.docx"));
-
-            document.Replace("%DatumPredaje%", datumPredaje, false, true);
-            document.Replace("%VrijemePredaje%", vrijemePredaje, false, true);
-            document.Replace("%PrijedlogStrucnogRadaFileName%", System.Web.HttpContext.Current.Session["PrijedlogStrucnogRadaFileName"].ToString(), false, true);
-            document.Replace("%PopratnaDokumentacijaFileName%", System.Web.HttpContext.Current.Session["PopratnaDokumentacijaFileName"].ToString(), false, true);
-
-            var newFileNameWithoutExtension = String.Format($"PotvrdaPrimitka_{DateTime.Now.ToString("yyyy-MM-dd_HH_mm_ss")}_{Guid.NewGuid().ToString()}");
-            var newPdfFileName = String.Format($"{newFileNameWithoutExtension}.pdf");
-
-            document.SaveToFile(Path.Combine(filesFolder, newPdfFileName), FileFormat.PDF);
-
-            using (MemoryStream stream = new MemoryStream())
+            try
             {
-                document.SaveToStream(stream, FileFormat.PDF);
+                // otvori word document
+                string filesFolder = System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Potvrde/");
+                string templateFolder = System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Template/");
 
-                Response.AppendCookie(new System.Web.HttpCookie("fileDownloadToken", DownloadToken));
+                Document document = new Document();
 
-                log.Info($"Download potvrde: {newPdfFileName}");
+                var datumPredaje = String.Format("{0:dd.MM.yyyy.}", System.Web.HttpContext.Current.Session["VrijemePredaje"]);
+                var vrijemePredaje = String.Format("{0:HH:mm:ss}", System.Web.HttpContext.Current.Session["VrijemePredaje"]);
 
-                return File(stream.ToArray(), "application/pdf", newPdfFileName);
+                document.LoadFromFile(Path.Combine(templateFolder, "TemplatePotvrda.docx"));
+
+                document.Replace("%DatumPredaje%", datumPredaje, false, true);
+                document.Replace("%VrijemePredaje%", vrijemePredaje, false, true);
+                document.Replace("%PrijedlogStrucnogRadaFileName%", System.Web.HttpContext.Current.Session["PrijedlogStrucnogRadaFileName"].ToString(), false, true);
+                document.Replace("%PopratnaDokumentacijaFileName%", System.Web.HttpContext.Current.Session["PopratnaDokumentacijaFileName"].ToString(), false, true);
+
+                var newFileNameWithoutExtension = String.Format($"PotvrdaPrimitka_{DateTime.Now.ToString("yyyy-MM-dd_HH_mm_ss")}_{Guid.NewGuid().ToString()}");
+                var newPdfFileName = String.Format($"{newFileNameWithoutExtension}.pdf");
+
+                document.SaveToFile(Path.Combine(filesFolder, newPdfFileName), FileFormat.PDF);
+
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    document.SaveToStream(stream, FileFormat.PDF);
+
+                    Response.AppendCookie(new System.Web.HttpCookie("fileDownloadToken", DownloadToken));
+
+                    log.Info($"Download potvrde: {newPdfFileName}");
+
+                    return File(stream.ToArray(), "application/pdf", newPdfFileName);
+                }
+            }
+            catch (Exception ex)
+            {
+                log.Error("Error", ex);
+                return Json(new { status = false, message = ex.Message });
             }
         }
     }
