@@ -295,7 +295,7 @@ function SaveFormData() {
 
 function UploadFile(TargetFile) {
 
-    JL("UploadFile").info("Počinjem upload fajle: " + TargetFile.name);
+    JL("UploadFile").info({ "msg": "UploadingFile", "FileName": TargetFile.name });
 
     // create array to store the buffer chunks
     var FileChunks = [];

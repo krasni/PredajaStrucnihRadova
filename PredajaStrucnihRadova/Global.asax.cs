@@ -30,5 +30,12 @@ namespace PredajaStrucnihRadova
                 provider.ValidatorFactory = new ValidatorFactory();
             });
         }
+
+        //protected void Application_BeginRequest()
+        //{
+        //    log4net.GlobalContext.Properties["requestId"] =
+        //        JSNLog.JavascriptLogging.RequestId();
+        //    log4net.Config.XmlConfigurator.Configure();
+        //}
     }
 }

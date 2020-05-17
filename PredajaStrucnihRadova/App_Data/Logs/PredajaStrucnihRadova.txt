@@ -1,250 +1,140 @@
-INFO  2020-05-11 09:47:40,181  6876ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-11 09:48:20,322 47017ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-11 09:48:20,323 47018ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-11 09:48:28,968 55663ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-11_09_48_24_e48793a8-5d9d-46ca-84b1-e1ca490e8310.pdf
-INFO  2020-05-11 09:49:49,345 136040ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-11 09:49:49,353 136048ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-11 09:54:54,191 440886ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-11_09_54_53_f2c1d57f-cf90-499a-958e-5ae4286ae040.pdf
-INFO  2020-05-11 10:06:53,119 1159814ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-11 10:09:07,247   690ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-11 10:19:45,474 638916ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: aaaaa111_2.docx
-INFO  2020-05-11 10:19:45,475 638917ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: aaaaa111_1.pdf
-INFO  2020-05-11 10:19:52,913 646356ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-11_10_19_49_0a3bd943-3f41-49c0-8bce-39bf12e445e0.pdf
-INFO  2020-05-11 10:21:14,845 728287ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-11 10:21:14,846 728288ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-11 10:23:59,192 892635ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-11_10_23_58_0fb8bdc9-a61c-453b-803b-2f3b8386199f.pdf
-INFO  2020-05-11 10:31:56,964  4897ms PodaciController       Podaci             - Browser: Firefox, Version: 75.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0
-INFO  2020-05-11 10:32:23,985 31917ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-11 10:32:23,986 31918ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-11 10:32:30,143 38076ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-11_10_32_27_b3b7acfb-41e3-44bf-9494-fb9a3a2468bd.pdf
-INFO  2020-05-12 09:56:12,387  4829ms PodaciController       Podaci             - Browser: Firefox, Version: 76.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
-INFO  2020-05-12 09:57:26,015 78457ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-12 09:57:26,016 78458ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-12 09:57:36,359 88801ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-12_09_57_31_617e4d2b-9908-4658-af7d-319692cffe33.pdf
-INFO  2020-05-12 13:20:56,289  6041ms PodaciController       Podaci             - Browser: Firefox, Version: 76.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
-INFO  2020-05-12 13:21:20,497 30250ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-12 13:21:20,500 30253ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-12 13:21:35,758 45511ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-12_13_21_30_a90b3cad-3dce-4933-bda5-27132a73c59c.pdf
-INFO  2020-05-15 10:48:36,712  3826ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:12:50,666  2532ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:12:55,651  7516ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:13:55,420 67286ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:14:29,249 101115ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:16:39,432 231297ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:19:41,462 413328ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:21:21,908 513773ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:21:47,056 538922ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:24:13,440 685306ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:28:47,538 959404ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:29:06,549 978415ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:29:39,214 1011079ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:29:50,143 1022009ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:30:07,473 1039339ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:30:11,985 1043851ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:31:13,836 1105702ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:31:55,290 1147156ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:34:50,260 1322126ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:35:27,875 1359741ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:36:51,066 1442932ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:37:10,003 1461869ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:38:42,940 1554805ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:42:10,674  1654ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:42:30,837 21817ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:42:48,342 39322ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:42:54,673 45654ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:43:01,330 52310ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:43:48,197 99177ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-15 11:43:48,198 99178ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-15 11:43:58,178 109158ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-15_11_43_54_8bf73475-158d-43bf-8b0d-3f95b8ddec98.pdf
-INFO  2020-05-15 11:44:01,068 112048ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:44:17,243 128223ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-15 11:44:17,244 128224ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-15 11:44:21,522 132502ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-15_11_44_20_13080b7f-f944-4960-956a-c58c8ef3a0fa.pdf
-INFO  2020-05-15 11:48:05,171  1106ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:48:32,075 28010ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:48:46,059 41994ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:51:34,169  1305ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 11:51:48,369 15505ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:06:14,724  3224ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:08:34,625 143124ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:08:50,586 159085ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:09:21,330 189830ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:10:25,282 253782ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:11:22,375 310874ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:17:24,047  2471ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:18:36,891 75315ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:32:35,681  6210ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 12:32:59,741 30271ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-15 12:32:59,743 30273ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-15 12:33:10,129 40658ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-15_12_33_05_c3b3ef2c-fe62-45f9-b8d9-331c6faa8908.pdf
-INFO  2020-05-15 15:35:51,707  2419ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:36:44,385 55098ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-15 15:36:44,386 55099ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-15 15:36:52,546 63258ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-15_15_36_49_13a42541-e583-425a-be6d-1920e65f034f.pdf
-INFO  2020-05-15 15:37:34,021 104733ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:37:44,275 114987ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:37:46,506 117218ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:38:14,157   553ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:38:33,029 19425ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:39:12,410   507ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:39:25,115 13213ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:39:32,328 20426ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:39:34,258 22355ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:39:38,098 26195ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:40:02,651  2696ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:40:08,790  8835ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:40:10,737 10783ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:40:13,558 13604ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:40:26,710 26756ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:40:58,679 58725ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:41:08,742 68788ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 15:41:12,466 72511ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:23:28,842  2486ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:24:26,687 60331ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:24:51,548 85192ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:24:57,806 91450ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:25:38,305 131950ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:25:55,313 148957ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:26:18,230  2398ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:26:30,144 14312ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:26:59,661   407ms PodaciController       Podaci             - Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-INFO  2020-05-15 17:27:26,149 26895ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-15 17:27:26,150 26896ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-15 17:27:34,084 34831ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-15_17_27_32_8e2dec91-7f9b-4b39-a6e2-b47df32217f2.pdf
-INFO  2020-05-15 17:28:17,303   434ms PodaciController       Podaci             - Browser: Chrome, Version: 70.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363
-INFO  2020-05-15 17:28:22,696  5827ms PodaciController       Podaci             - Browser: Chrome, Version: 70.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363
-INFO  2020-05-15 17:28:58,346   420ms PodaciController       Podaci             - Browser: Chrome, Version: 70.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363
-INFO  2020-05-15 17:29:08,937 11011ms PodaciController       Podaci             - Browser: Chrome, Version: 70.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363
-INFO  2020-05-15 17:29:47,816   614ms PodaciController       Podaci             - Browser: Firefox, Version: 76.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
-INFO  2020-05-15 17:30:18,985 31783ms PodaciController       Podaci             - Browser: Firefox, Version: 76.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
-INFO  2020-05-15 17:31:08,931 81729ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-15 17:31:08,932 81730ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-15 17:31:17,070 89868ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-15_17_31_15_86749186-a406-4897-8541-24aec5c2fe3b.pdf
-INFO  2020-05-15 17:42:22,139  2376ms PodaciController       Podaci             - Browser: Firefox, Version: 76.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
-INFO  2020-05-15 17:42:37,380 17617ms PodaciController       Podaci             - Browser: Firefox, Version: 76.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
-INFO  2020-05-15 17:43:10,136   440ms PodaciController       Podaci             - Browser: Firefox, Version: 76.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
-INFO  2020-05-15 17:43:21,823   463ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:43:30,756  9396ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:43:41,534 20174ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:43:47,538 26178ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:43:51,663 30303ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:43:51,815 30455ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:43:52,011 30651ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:43:52,189 30829ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:44:14,766 53406ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:44:40,932   442ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:45:07,125  2336ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:45:11,741  6952ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:53:58,630   450ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 17:57:53,974   416ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 18:04:54,563   451ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 18:07:39,123   415ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-15 18:08:05,214 26506ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: eeeee111_2.docx
-INFO  2020-05-15 18:08:05,215 26507ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: eeeee111_1.pdf
-INFO  2020-05-15 18:08:09,836 31129ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-15_18_08_08_1abd3fa2-55d3-475a-8897-34ea0757f19e.pdf
-INFO  2020-05-16 20:25:23,376  3682ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 20:25:39,315 19620ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 20:30:49,089  3762ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 20:31:11,775 26448ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 20:31:11,776 26449ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 20:31:12,026 26698ms SaveFormData           WriteInternal      - Sent: 2020-05-16T20:31:11.7688233+02:00, RequestID: 8000006e-0000-eb00-b63f-84710c7967bb, Url: http://localhost:49201/, Message: Saving form data
-INFO  2020-05-16 20:31:22,015 36687ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_20_31_18_3e9871a6-a68a-4cb1-9b21-44e36f09a73f.pdf
-FATAL 2020-05-16 20:37:49,946 424619ms onerrorLogger          WriteInternal      - Sent: 2020-05-16T20:37:49.9449274+02:00, RequestID: 8000006e-0000-eb00-b63f-84710c7967bb, Url: http://localhost:49201/, Message: {"e":{"description":"Unspecified error.","number":-2147467259},"message":"Unspecified error.","name":"Error","logData":{"msg":"Uncaught Exception","errorMsg":"Unspecified error.","url":"","line number":1,"column":1}}
-INFO  2020-05-16 20:37:49,948 424621ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 20:38:03,871 438544ms SaveFormData           WriteInternal      - Sent: 2020-05-16T20:38:03.8716501+02:00, RequestID: 800000a2-0001-f600-b63f-84710c7967bb, Url: http://localhost:49201/, Message: {"msg":"Saving form data","prijedlogStrucnogRada":"g2HH3F2E_2.docx"}
-INFO  2020-05-16 20:38:03,875 438548ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 20:38:03,876 438549ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 20:38:11,177 445850ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_20_38_10_00a486a3-5d3d-4bf5-b36a-17f0a4d42e93.pdf
-INFO  2020-05-16 20:41:57,437 672109ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 20:42:09,671 684343ms SaveFormData           WriteInternal      - Sent: 2020-05-16T20:42:09.6711858+02:00, RequestID: 800000b9-0000-eb00-b63f-84710c7967bb, Url: http://localhost:49201/, Message: Saving form data:
-INFO  2020-05-16 20:42:09,677 684349ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 20:42:09,678 684350ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 20:42:17,105 691777ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_20_42_16_75a63f06-06bf-4916-aad6-698c6b8d873d.pdf
-INFO  2020-05-16 20:49:30,210   730ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 20:49:59,037  4106ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 20:51:00,091 65161ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 20:51:00,092 65162ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 20:51:00,299 65369ms SaveFormData           WriteInternal      - Sent: 2020-05-16T20:51:00.0854732+02:00, RequestID: 800000b3-0002-fc00-b63f-84710c7967bb, Url: http://localhost:49201/, Message: Saving form data:
-INFO  2020-05-16 20:51:00,300 65370ms SaveFormData           WriteInternal      - Sent: 2020-05-16T20:51:00.0695157+02:00, RequestID: 800000b3-0002-fc00-b63f-84710c7967bb, Url: http://localhost:49201/, Message: Saving form data:
-INFO  2020-05-16 20:51:08,097 73167ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_20_51_06_519f44ba-3751-4eff-a89d-35ef9522b8ed.pdf
-INFO  2020-05-16 20:51:48,161 113231ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 20:52:05,767 130837ms SaveFormData           WriteInternal      - Sent: 2020-05-16T20:52:05.7679607+02:00, RequestID: 8000009f-0002-f800-b63f-84710c7967bb, Url: http://localhost:49201/, Message: Saving form data:g2HH3F2E_2.docx
-INFO  2020-05-16 20:52:05,773 130843ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 20:52:05,774 130844ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 20:52:11,355 136425ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_20_52_11_112718e6-b720-4aca-be29-d33350f7e9f3.pdf
-INFO  2020-05-16 21:04:14,451 859520ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 21:04:26,158 871228ms logger1                WriteInternal      - Sent: 2020-05-16T21:04:26.1577961+02:00, RequestID: 80000041-0003-fa00-b63f-84710c7967bb, Url: http://localhost:49201/, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"'g2HH3F2E_2.docx'"}
-INFO  2020-05-16 21:04:26,163 871233ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 21:04:26,164 871234ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:04:31,760 876829ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_21_04_31_a67101f3-bbc4-4f48-9c94-6d849185831c.pdf
-INFO  2020-05-16 21:07:55,157 1080227ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 21:08:09,053 1094123ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:08:09.0533884+02:00, RequestID: 800000ec-0001-f900-b63f-84710c7967bb, Url: http://localhost:49201/, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"'g2HH3F2E_2.docx'","PopratnaDokumentacijaFileName":"'g2HH3F2E_1.mp3'","DownloadToken":"'1589656075523'"}
-INFO  2020-05-16 21:08:09,059 1094129ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 21:08:09,059 1094129ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:08:14,099 1099169ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_21_08_13_bece2b4f-2696-4f14-95e9-f954ec8406ed.pdf
-INFO  2020-05-16 21:18:58,947  3941ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 21:19:14,069 19064ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 21:19:14,069 19064ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:19:41,842 46836ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:19:41.7055919+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"'g2HH3F2E_2.docx'","PopratnaDokumentacijaFileName":"'g2HH3F2E_1.mp3'","DownloadToken":"'1589656741778'"}
-INFO  2020-05-16 21:19:41,843 46837ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:19:14.0628628+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"'g2HH3F2E_2.docx'","PopratnaDokumentacijaFileName":"'g2HH3F2E_1.mp3'","DownloadToken":"'1589656741778'"}
-INFO  2020-05-16 21:19:41,845 46839ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:19:41.7055919+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Snimanje forme završeno.
-INFO  2020-05-16 21:19:41,845 46839ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:19:41.7055919+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Pocinjem upload fajlova.
-INFO  2020-05-16 21:19:41,846 46840ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:19:41.7055919+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_2.docx
-INFO  2020-05-16 21:19:41,846 46840ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:19:41.7055919+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:19:41,846 46840ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:19:41.7055919+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Fajlovi su poslani na upload.
-INFO  2020-05-16 21:19:50,022 55016ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_21_19_48_721cd154-b368-49ed-91f9-d5cb53bd164e.pdf
-INFO  2020-05-16 21:22:39,528 224522ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:22:39.5282221+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"'g2HH3F2E_2.docx'","PopratnaDokumentacijaFileName":"'g2HH3F2E_1.mp3'","DownloadToken":"'1589656787517'"}
-INFO  2020-05-16 21:22:39,552 224546ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 21:22:39,552 224546ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:22:39,580 224574ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:22:39.5710940+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Snimanje forme završeno.
-INFO  2020-05-16 21:22:41,614 226608ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:22:41.6140108+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Pocinjem upload fajlova.
-INFO  2020-05-16 21:22:41,615 226609ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:22:41.6140108+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_2.docx
-INFO  2020-05-16 21:22:41,615 226609ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:22:41.6140108+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:22:41,616 226610ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:22:41.6140108+02:00, RequestID: 800000c6-0003-f600-b63f-84710c7967bb, Message: Fajlovi su poslani na upload.
-INFO  2020-05-16 21:22:46,007 231002ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_21_22_45_f336e1ab-d25e-4dae-b8f9-b9fc92ea5685.pdf
-INFO  2020-05-16 21:24:50,980 355974ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 21:25:00,451 365446ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:25:00.4519092+02:00, RequestID: 80000151-0000-ef00-b63f-84710c7967bb, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"'1589657091351'"}
-INFO  2020-05-16 21:25:00,458 365453ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 21:25:00,458 365453ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:25:00,470 365465ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:25:00.4698621+02:00, RequestID: 80000151-0000-ef00-b63f-84710c7967bb, Message: Snimanje forme završeno.
-INFO  2020-05-16 21:25:01,502 366497ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:25:01.5026207+02:00, RequestID: 80000151-0000-ef00-b63f-84710c7967bb, Message: Pocinjem upload fajlova.
-INFO  2020-05-16 21:25:01,503 366498ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:25:01.5026207+02:00, RequestID: 80000151-0000-ef00-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_2.docx
-INFO  2020-05-16 21:25:01,504 366499ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:25:01.5026207+02:00, RequestID: 80000151-0000-ef00-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:25:01,504 366499ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:25:01.5026207+02:00, RequestID: 80000151-0000-ef00-b63f-84710c7967bb, Message: Fajlovi su poslani na upload.
-INFO  2020-05-16 21:25:07,533 372528ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_21_25_07_bfe09c5b-3684-4d64-bc78-c8c08ecc21cb.pdf
-INFO  2020-05-16 21:26:01,700 426694ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 21:26:12,542 437536ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:26:12.5420290+02:00, RequestID: 80000181-0002-fa00-b63f-84710c7967bb, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589657162483"}
-INFO  2020-05-16 21:26:12,547 437541ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 21:26:12,548 437542ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:26:12,558 437553ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:26:12.5589838+02:00, RequestID: 80000181-0002-fa00-b63f-84710c7967bb, Message: Snimanje forme završeno.
-INFO  2020-05-16 21:26:13,075 438070ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:26:13.0756285+02:00, RequestID: 80000181-0002-fa00-b63f-84710c7967bb, Message: Pocinjem upload fajlova.
-INFO  2020-05-16 21:26:13,076 438071ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:26:13.0756285+02:00, RequestID: 80000181-0002-fa00-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_2.docx
-INFO  2020-05-16 21:26:13,076 438071ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:26:13.0756285+02:00, RequestID: 80000181-0002-fa00-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:26:13,077 438072ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:26:13.0756285+02:00, RequestID: 80000181-0002-fa00-b63f-84710c7967bb, Message: Fajlovi su poslani na upload.
-INFO  2020-05-16 21:26:18,357 443351ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_21_26_18_17540d26-52bb-4634-b7a1-f0eb1eedc5aa.pdf
-INFO  2020-05-16 21:30:11,490 676485ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 21:30:20,364 685358ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:30:20.3643209+02:00, RequestID: 80000106-0002-fe00-b63f-84710c7967bb, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589657411818"}
-INFO  2020-05-16 21:30:20,372 685366ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 21:30:20,373 685367ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:30:20,389 685383ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:30:20.3892548+02:00, RequestID: 80000106-0002-fe00-b63f-84710c7967bb, Message: Snimanje forme završeno.
-INFO  2020-05-16 21:30:22,418 687412ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:30:22.4183979+02:00, RequestID: 80000106-0002-fe00-b63f-84710c7967bb, Message: Pocinjem upload fajlova.
-INFO  2020-05-16 21:30:22,419 687413ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:30:22.4183979+02:00, RequestID: 80000106-0002-fe00-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_2.docx
-INFO  2020-05-16 21:30:22,419 687413ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:30:22.4183979+02:00, RequestID: 80000106-0002-fe00-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:30:22,419 687413ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:30:22.4183979+02:00, RequestID: 80000106-0002-fe00-b63f-84710c7967bb, Message: Fajlovi su poslani na upload.
-INFO  2020-05-16 21:30:23,619 688614ms UploadFileChunk        WriteInternal      - Sent: 2020-05-16T21:30:23.6198732+02:00, RequestID: 80000106-0002-fe00-b63f-84710c7967bb, Message: Uspješno je uploadana fajla: g2HH3F2E_1_16052020213020.mp3
-INFO  2020-05-16 21:30:25,794 690788ms UploadFileChunk        WriteInternal      - Sent: 2020-05-16T21:30:25.7940726+02:00, RequestID: 80000106-0002-fe00-b63f-84710c7967bb, Message: Uspješno je uploadana fajla: g2HH3F2E_2_16052020213020.docx
-INFO  2020-05-16 21:30:26,216 691211ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_21_30_25_a33be21f-870c-45b7-b64a-9b0ec366d557.pdf
-INFO  2020-05-16 21:39:21,047  3780ms PodaciController       Podaci             - Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-INFO  2020-05-16 21:39:32,225 14958ms PodaciController       SaveFormData       - PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
-INFO  2020-05-16 21:39:32,226 14959ms PodaciController       SaveFormData       - PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:39:32,456 15189ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:39:32.2207952+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589657963819"}
-INFO  2020-05-16 21:39:32,982 15714ms SaveFormData           WriteInternal      - Sent: 2020-05-16T21:39:32.9822703+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Snimanje forme završeno.
-INFO  2020-05-16 21:39:32,983 15715ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:39:32.9822703+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Pocinjem upload fajlova.
-INFO  2020-05-16 21:39:32,983 15715ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:39:32.9822703+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_2.docx
-INFO  2020-05-16 21:39:32,983 15715ms UploadFile             WriteInternal      - Sent: 2020-05-16T21:39:32.9822703+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Pocinjem upload fajle: g2HH3F2E_1.mp3
-INFO  2020-05-16 21:39:32,983 15715ms UploadFiles            WriteInternal      - Sent: 2020-05-16T21:39:32.9822703+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Fajlovi su poslani na upload.
-INFO  2020-05-16 21:39:36,326 19058ms UploadFileChunk        WriteInternal      - Sent: 2020-05-16T21:39:36.3263278+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Uspješno je uploadana fajla: g2HH3F2E_2_16052020213932.docx
-INFO  2020-05-16 21:39:37,098 19831ms UploadFileChunk        WriteInternal      - Sent: 2020-05-16T21:39:37.0987770+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Uspješno je uploadana fajla: g2HH3F2E_1_16052020213932.mp3
-INFO  2020-05-16 21:39:39,387 22119ms PodaciController       DownloadPDF        - Download potvrde: PotvrdaPrimitka_2020-05-16_21_39_37_38324798-e4c6-4a12-934e-e19707e906ae.pdf
-INFO  2020-05-16 21:39:39,615 22347ms DownloadPDF            WriteInternal      - Sent: 2020-05-16T21:39:39.6152560+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Pocinjem download PDF potvrde.
-INFO  2020-05-16 21:39:39,615 22347ms DownloadPDF            WriteInternal      - Sent: 2020-05-16T21:39:39.6152560+02:00, RequestID: 80000146-0000-f300-b63f-84710c7967bb, Message: Gotov download PDF potvrde.
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:01,254 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+ 8000005e-0000-f400-b63f-84710c7967bb | 2020-05-17 13:10:13,739 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+ 8000005e-0000-f400-b63f-84710c7967bb | 2020-05-17 13:10:13,748 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+ 8000009d-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:14,164 | INFO | SaveFormData | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589713803160"}
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,252 | INFO | SaveFormData | Snimanje forme završeno.
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,260 | INFO | UploadFiles | Pocinjem upload fajlova.
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,260 | INFO | UploadFile | Pocinjem upload fajle: g2HH3F2E_2.docx
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,260 | INFO | UploadFile | Pocinjem upload fajle: g2HH3F2E_1.mp3
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,264 | INFO | UploadFiles | Fajlovi su poslani na upload.
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,316 | INFO | SaveFormData | Snimanje forme završeno.
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,316 | INFO | UploadFiles | Pocinjem upload fajlova.
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,340 | INFO | UploadFile | Pocinjem upload fajle: g2HH3F2E_2.docx
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,340 | INFO | UploadFile | Pocinjem upload fajle: g2HH3F2E_1.mp3
+ 8000009e-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:10:20,341 | INFO | UploadFiles | Fajlovi su poslani na upload.
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:12:51,451 | INFO | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_2_17052020131013.docx
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:12:54,747 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_13_12_52_d3cd054d-c981-4582-a585-0f42cb48ae61.pdf
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:12:55,081 | INFO | DownloadPDF | Pocinjem download PDF potvrde.
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:12:55,081 | INFO | DownloadPDF | Gotov download PDF potvrde.
+ 800001d8-0002-fe00-b63f-84710c7967bb | 2020-05-17 13:14:48,344 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+ 800001d8-0002-fe00-b63f-84710c7967bb | 2020-05-17 13:14:48,346 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+ 80000104-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:15:38,851 | INFO | UploadFiles | Pocinjem upload fajlova.
+ 80000104-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:15:38,852 | INFO | UploadFile | Pocinjem upload fajle: g2HH3F2E_2.docx
+ 80000104-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:15:38,853 | INFO | UploadFile | Pocinjem upload fajle: g2HH3F2E_1.mp3
+ 80000104-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:15:38,853 | INFO | UploadFiles | Fajlovi su poslani na upload.
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:16:59,159 | INFO | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_1_17052020131448.mp3
+ 800000fa-0000-f400-b63f-84710c7967bb | 2020-05-17 13:17:26,810 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_13_17_26_3aa20cda-fdbf-46fb-ac09-39fd716385f8.pdf
+ 800000fa-0000-f400-b63f-84710c7967bb | 2020-05-17 13:17:27,039 | INFO | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_2_17052020131448.docx
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:17:27,154 | INFO | DownloadPDF | Pocinjem download PDF potvrde.
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:17:27,155 | INFO | DownloadPDF | Gotov download PDF potvrde.
+ 800000e4-0003-f900-b63f-84710c7967bb | 2020-05-17 13:20:28,484 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: InternetExplorer, Version: 11.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+ 800000fc-0000-f400-b63f-84710c7967bb | 2020-05-17 13:20:39,764 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+ 800000fc-0000-f400-b63f-84710c7967bb | 2020-05-17 13:20:39,765 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+ 800000e4-0003-f900-b63f-84710c7967bb | 2020-05-17 13:21:09,288 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_13_21_09_3c757f21-2ba1-4109-8928-f8075b6fc9f7.pdf
+ 800000e4-0003-f900-b63f-84710c7967bb | 2020-05-17 13:21:09,530 | INFO | DownloadPDF | Pocinjem download PDF potvrde.
+ 800000e4-0003-f900-b63f-84710c7967bb | 2020-05-17 13:21:09,530 | INFO | DownloadPDF | Gotov download PDF potvrde.
+ 800001dc-0002-fe00-b63f-84710c7967bb | 2020-05-17 13:22:20,233 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+ 800001dc-0002-fe00-b63f-84710c7967bb | 2020-05-17 13:22:20,234 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:24:01,527 | INFO | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_1_17052020132220.mp3
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:24:59,829 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_13_24_59_932c0a43-a03e-4fad-b8e5-6697a097da39.pdf
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:25:00,055 | INFO | DownloadPDF | Pocinjem download PDF potvrde.
+ 80000098-0000-ec00-b63f-84710c7967bb | 2020-05-17 13:25:00,055 | INFO | DownloadPDF | Gotov download PDF potvrde.
+ 80000297-0001-f700-b63f-84710c7967bb | 2020-05-17 13:29:48,312 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+ 8000029a-0001-f700-b63f-84710c7967bb | 2020-05-17 13:29:59,768 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+ 8000029a-0001-f700-b63f-84710c7967bb | 2020-05-17 13:29:59,769 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+ 80000297-0001-f700-b63f-84710c7967bb | 2020-05-17 13:30:32,896 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_13_30_30_35099cf9-6f8b-41c8-8f46-a357a100727a.pdf
+ 80000297-0001-f700-b63f-84710c7967bb | 2020-05-17 13:30:33,252 | INFO | DownloadPDF | Pocinjem download PDF potvrde.
+ 80000297-0001-f700-b63f-84710c7967bb | 2020-05-17 13:30:33,259 | INFO | DownloadPDF | Gotov download PDF potvrde.
+ 8000019f-0000-f400-b63f-84710c7967bb | 2020-05-17 13:31:06,925 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+ 8000019f-0000-f400-b63f-84710c7967bb | 2020-05-17 13:31:06,925 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+ 800002fc-0001-f700-b63f-84710c7967bb | 2020-05-17 13:31:19,681 | INFO | UploadFiles | Pocinjem upload fajlova.
+ 800002fc-0001-f700-b63f-84710c7967bb | 2020-05-17 13:31:19,681 | INFO | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}
+ 800002fc-0001-f700-b63f-84710c7967bb | 2020-05-17 13:31:19,681 | INFO | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}
+ 800002fc-0001-f700-b63f-84710c7967bb | 2020-05-17 13:31:19,681 | INFO | UploadFiles | Fajlovi su poslani na upload.
+ 80000297-0001-f700-b63f-84710c7967bb | 2020-05-17 13:33:44,896 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_13_33_44_600c8a04-0d2d-4327-8ce6-3b81a0cd108d.pdf
+ 80000297-0001-f700-b63f-84710c7967bb | 2020-05-17 13:33:45,087 | INFO | DownloadPDF | Pocinjem download PDF potvrde.
+ 80000297-0001-f700-b63f-84710c7967bb | 2020-05-17 13:33:45,088 | INFO | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_1_17052020133106.mp3
+ 80000297-0001-f700-b63f-84710c7967bb | 2020-05-17 13:33:45,088 | INFO | DownloadPDF | Gotov download PDF potvrde.
+ (null) | 2020-05-17 13:35:44,843 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+ (null) | 2020-05-17 13:35:56,749 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+ (null) | 2020-05-17 13:35:56,750 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+ (null) | 2020-05-17 13:35:57,022 | INFO | SaveFormData | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589715347022"}
+ (null) | 2020-05-17 13:35:58,036 | INFO | SaveFormData | Snimanje forme završeno.
+ (null) | 2020-05-17 13:35:58,036 | INFO | UploadFiles | Pocinjem upload fajlova.
+ (null) | 2020-05-17 13:35:58,036 | INFO | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}
+ (null) | 2020-05-17 13:35:58,037 | INFO | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}
+ (null) | 2020-05-17 13:35:58,037 | INFO | UploadFiles | Fajlovi su poslani na upload.
+ (null) | 2020-05-17 13:36:00,438 | INFO | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_2_17052020133556.docx
+ (null) | 2020-05-17 13:36:00,891 | INFO | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_1_17052020133556.mp3
+ (null) | 2020-05-17 13:36:03,698 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_13_36_01_68fedf39-15cc-4416-b5fb-e2ad6f05d611.pdf
+ (null) | 2020-05-17 13:36:03,929 | INFO | DownloadPDF | Pocinjem download PDF potvrde.
+ (null) | 2020-05-17 13:36:03,930 | INFO | DownloadPDF | Gotov download PDF potvrde.
+(null) | 2020-05-17 15:38:14,170 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+(null) | 2020-05-17 15:38:48,362 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+(null) | 2020-05-17 15:38:48,363 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+(null) | 2020-05-17 15:38:48,600 | INFO | SaveFormData | %property{requestId} | 2020-05-17T15:38:48.3420000+02:00 | 3000 | SaveFormData | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589722697245"}
+
+(null) | 2020-05-17 15:38:49,124 | INFO | SaveFormData | %property{requestId} | 2020-05-17T15:38:48.3780000+02:00 | 3000 | SaveFormData | Snimanje forme završeno.
+
+(null) | 2020-05-17 15:38:49,124 | INFO | UploadFiles | %property{requestId} | 2020-05-17T15:38:48.3780000+02:00 | 3000 | UploadFiles | Pocinjem upload fajlova.
+
+(null) | 2020-05-17 15:38:49,125 | INFO | UploadFile | %property{requestId} | 2020-05-17T15:38:48.3810000+02:00 | 3000 | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}
+
+(null) | 2020-05-17 15:38:49,125 | INFO | UploadFile | %property{requestId} | 2020-05-17T15:38:48.3930000+02:00 | 3000 | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}
+
+(null) | 2020-05-17 15:38:49,126 | INFO | UploadFiles | %property{requestId} | 2020-05-17T15:38:48.4020000+02:00 | 3000 | UploadFiles | Fajlovi su poslani na upload.
+
+(null) | 2020-05-17 15:38:50,507 | INFO | UploadFileChunk | %property{requestId} | 2020-05-17T15:38:50.5060000+02:00 | 3000 | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_2_17052020153848.docx
+
+(null) | 2020-05-17 15:38:52,403 | INFO | UploadFileChunk | %property{requestId} | 2020-05-17T15:38:52.3920000+02:00 | 3000 | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_1_17052020153848.mp3
+
+(null) | 2020-05-17 15:38:56,313 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_15_38_53_b611ee76-5d39-40fb-a083-cecbc4c7dcc2.pdf
+(null) | 2020-05-17 15:38:56,438 | INFO | DownloadPDF | %property{requestId} | 2020-05-17T15:38:52.3930000+02:00 | 3000 | DownloadPDF | Pocinjem download PDF potvrde.
+
+(null) | 2020-05-17 15:38:56,438 | INFO | DownloadPDF | %property{requestId} | 2020-05-17T15:38:52.3950000+02:00 | 3000 | DownloadPDF | Gotov download PDF potvrde.
+
+(null) | 2020-05-17 15:41:03,939 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+(null) | 2020-05-17 15:41:42,025 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+(null) | 2020-05-17 15:41:42,026 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+(null) | 2020-05-17 15:41:42,304 | INFO | SaveFormData | {requestId} | 2020-05-17T15:41:42.0070000+02:00 | 3000 | SaveFormData | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589722865983"}%
+(null) | 2020-05-17 15:41:45,365 | INFO | SaveFormData | {requestId} | 2020-05-17T15:41:42.0410000+02:00 | 3000 | SaveFormData | Snimanje forme završeno.%
+(null) | 2020-05-17 15:41:45,366 | INFO | UploadFiles | {requestId} | 2020-05-17T15:41:42.0410000+02:00 | 3000 | UploadFiles | Pocinjem upload fajlova.%
+(null) | 2020-05-17 15:41:45,366 | INFO | UploadFile | {requestId} | 2020-05-17T15:41:42.0440000+02:00 | 3000 | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}%
+(null) | 2020-05-17 15:41:45,367 | INFO | UploadFile | {requestId} | 2020-05-17T15:41:42.0580000+02:00 | 3000 | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}%
+(null) | 2020-05-17 15:41:45,367 | INFO | UploadFiles | {requestId} | 2020-05-17T15:41:42.0680000+02:00 | 3000 | UploadFiles | Fajlovi su poslani na upload.%
+(null) | 2020-05-17 15:41:45,879 | INFO | UploadFileChunk | {requestId} | 2020-05-17T15:41:45.0860000+02:00 | 3000 | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_1_17052020154142.mp3%
+(null) | 2020-05-17 15:41:46,602 | INFO | UploadFileChunk | {requestId} | 2020-05-17T15:41:46.5990000+02:00 | 3000 | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_2_17052020154142.docx%
+(null) | 2020-05-17 15:41:49,110 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_15_41_47_861dd407-0bee-4fcb-a5e5-83803f9c2d16.pdf
+(null) | 2020-05-17 15:41:49,118 | INFO | DownloadPDF | {requestId} | 2020-05-17T15:41:46.6000000+02:00 | 3000 | DownloadPDF | Pocinjem download PDF potvrde.%
+(null) | 2020-05-17 15:41:49,118 | INFO | DownloadPDF | {requestId} | 2020-05-17T15:41:46.6020000+02:00 | 3000 | DownloadPDF | Gotov download PDF potvrde.%
+(null) | 2020-05-17 15:44:09,381 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+(null) | 2020-05-17 15:44:15,609 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+(null) | 2020-05-17 15:44:55,605 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+(null) | 2020-05-17 15:51:38,079 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+(null) | 2020-05-17 15:51:55,456 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+(null) | 2020-05-17 15:51:55,457 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+(null) | 2020-05-17 15:51:55,697 | INFO | SaveFormData | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:55.4370000+02:00 | 3000 | SaveFormData | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589723500919"}%
+(null) | 2020-05-17 15:51:56,214 | INFO | SaveFormData | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:55.4720000+02:00 | 3000 | SaveFormData | Snimanje forme završeno.%
+(null) | 2020-05-17 15:51:56,215 | INFO | UploadFiles | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:55.4720000+02:00 | 3000 | UploadFiles | Pocinjem upload fajlova.%
+(null) | 2020-05-17 15:51:56,215 | INFO | UploadFile | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:55.4740000+02:00 | 3000 | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}%
+(null) | 2020-05-17 15:51:56,216 | INFO | UploadFile | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:55.4890000+02:00 | 3000 | UploadFile | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}%
+(null) | 2020-05-17 15:51:56,216 | INFO | UploadFiles | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:55.4990000+02:00 | 3000 | UploadFiles | Fajlovi su poslani na upload.%
+(null) | 2020-05-17 15:51:59,229 | INFO | UploadFileChunk | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:59.2270000+02:00 | 3000 | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_2_17052020155155.docx%
+(null) | 2020-05-17 15:51:59,778 | INFO | UploadFileChunk | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:59.7750000+02:00 | 3000 | UploadFileChunk | Uspješno je uploadana fajla: g2HH3F2E_1_17052020155155.mp3%
+(null) | 2020-05-17 15:51:59,793 | INFO | DownloadPDF | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:59.7770000+02:00 | 3000 | DownloadPDF | Pocinjem download PDF potvrde.%
+(null) | 2020-05-17 15:51:59,793 | INFO | DownloadPDF | 80000029-0001-fb00-b63f-84710c7967bb | 2020-05-17T15:51:59.7780000+02:00 | 3000 | DownloadPDF | Gotov download PDF potvrde.%
+(null) | 2020-05-17 15:52:02,226 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_15_52_00_f7664478-b17d-452c-8aca-cbf54684538b.pdf
+2020-05-17 15:53:55,309 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-17 15:54:10,025 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+2020-05-17 15:54:10,026 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+2020-05-17 15:54:10,263 | INFO | SaveFormData | 800000ba-0003-f700-b63f-84710c7967bb | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589723637440"}%
+2020-05-17 15:54:13,820 | INFO | SaveFormData | 800000ba-0003-f700-b63f-84710c7967bb | Snimanje forme završeno.%
+2020-05-17 15:54:13,821 | INFO | UploadFiles | 800000ba-0003-f700-b63f-84710c7967bb | Pocinjem upload fajlova.%
+2020-05-17 15:54:13,822 | INFO | UploadFile | 800000ba-0003-f700-b63f-84710c7967bb | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}%
+2020-05-17 15:54:13,822 | INFO | UploadFile | 800000ba-0003-f700-b63f-84710c7967bb | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}%
+2020-05-17 15:54:13,822 | INFO | UploadFiles | 800000ba-0003-f700-b63f-84710c7967bb | Fajlovi su poslani na upload.%
+2020-05-17 15:54:13,833 | INFO | UploadFileChunk | 800000ba-0003-f700-b63f-84710c7967bb | Uspješno je uploadana fajla: g2HH3F2E_2_17052020155410.docx%
+2020-05-17 15:54:13,833 | INFO | UploadFileChunk | 800000ba-0003-f700-b63f-84710c7967bb | Uspješno je uploadana fajla: g2HH3F2E_1_17052020155410.mp3%
+2020-05-17 15:54:13,833 | INFO | DownloadPDF | 800000ba-0003-f700-b63f-84710c7967bb | Pocinjem download PDF potvrde.%
+2020-05-17 15:54:13,834 | INFO | DownloadPDF | 800000ba-0003-f700-b63f-84710c7967bb | Gotov download PDF potvrde.%
+2020-05-17 15:54:16,359 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_15_54_14_24883d0f-2cb4-4422-9474-f91fbe8b4f62.pdf
