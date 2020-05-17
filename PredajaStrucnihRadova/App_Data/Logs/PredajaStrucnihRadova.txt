@@ -138,3 +138,17 @@
 2020-05-17 15:54:13,833 | INFO | DownloadPDF | 800000ba-0003-f700-b63f-84710c7967bb | Pocinjem download PDF potvrde.%
 2020-05-17 15:54:13,834 | INFO | DownloadPDF | 800000ba-0003-f700-b63f-84710c7967bb | Gotov download PDF potvrde.%
 2020-05-17 15:54:16,359 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_15_54_14_24883d0f-2cb4-4422-9474-f91fbe8b4f62.pdf
+2020-05-17 16:31:08,161 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-17 16:31:29,918 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: eeeee111_2.docx
+2020-05-17 16:31:29,919 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: eeeee111_1.pdf
+2020-05-17 16:31:30,443 | INFO | SaveFormData | 80000094-0003-fd00-b63f-84710c7967bb | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"eeeee111_2.docx","PopratnaDokumentacijaFileName":"eeeee111_1.pdf","DownloadToken":"1589725874775"}%
+2020-05-17 16:31:32,017 | INFO | SaveFormData | 80000094-0003-fd00-b63f-84710c7967bb | Snimanje forme završeno.%
+2020-05-17 16:31:32,021 | INFO | UploadFiles | 80000094-0003-fd00-b63f-84710c7967bb | Poèinjem upload fajlova.%
+2020-05-17 16:31:32,022 | INFO | UploadFile | 80000094-0003-fd00-b63f-84710c7967bb | {"msg":"UploadingFile","FileName":"eeeee111_2.docx"}%
+2020-05-17 16:31:32,022 | INFO | UploadFile | 80000094-0003-fd00-b63f-84710c7967bb | {"msg":"UploadingFile","FileName":"eeeee111_1.pdf"}%
+2020-05-17 16:31:32,024 | INFO | UploadFiles | 80000094-0003-fd00-b63f-84710c7967bb | Fajlovi su poslani na upload.%
+2020-05-17 16:31:32,596 | INFO | UploadFileChunk | 80000094-0003-fd00-b63f-84710c7967bb | Uspješno je uploadana fajla: eeeee111_2_17052020163130.docx%
+2020-05-17 16:31:34,442 | INFO | UploadFileChunk | 80000094-0003-fd00-b63f-84710c7967bb | Uspješno je uploadana fajla: eeeee111_1_17052020163130.pdf%
+2020-05-17 16:31:34,490 | INFO | DownloadPDF | 80000094-0003-fd00-b63f-84710c7967bb | Poèinjem download PDF potvrde.%
+2020-05-17 16:31:34,491 | INFO | DownloadPDF | 80000094-0003-fd00-b63f-84710c7967bb | Gotov download PDF potvrde.%
+2020-05-17 16:31:40,586 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-17_16_31_35_91263999-52bc-4548-9961-534ae77dbd46.pdf

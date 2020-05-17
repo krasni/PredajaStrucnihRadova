@@ -29,7 +29,7 @@ namespace PredajaStrucnihRadova
             bundles.Add(new ScriptBundle("~/bundles/mybundle").Include(
                         "~/Scripts/PredajaStrucnihRadova.js"));
 
-            BundleTable.EnableOptimizations = false;
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
