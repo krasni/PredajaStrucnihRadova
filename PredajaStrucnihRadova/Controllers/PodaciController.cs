@@ -132,7 +132,12 @@ namespace PredajaStrucnihRadova.Controllers
                 {
                     document.SaveToStream(stream, FileFormat.PDF);
 
-                    Response.AppendCookie(new System.Web.HttpCookie("fileDownloadToken", DownloadToken));
+                    var downloadCookie = new System.Web.HttpCookie("fileDownloadToken", DownloadToken)
+                    {
+                        Path = "/PredajaStrucnihRadova"
+                    };
+
+                    Response.AppendCookie(downloadCookie);
 
                     log.Info($"Download potvrde: {newPdfFileName}");
 
