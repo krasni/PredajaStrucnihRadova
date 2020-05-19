@@ -16,8 +16,6 @@ namespace PredajaStrucnihRadova.Models
         [Display(Name = "Obavezna popratna dokumentacija")]
         [DataType(DataType.Upload)]
         public HttpPostedFileBase PopratnaDokumentacija { get; set; }
-
-        public string DownloadToken { get; set; }
     }
 
     public class PodaciValidator : AbstractValidator<Podaci>

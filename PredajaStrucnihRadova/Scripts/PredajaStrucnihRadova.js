@@ -3,9 +3,6 @@ $().ready(function () {
 
     console.log("ef");
 
-    var token = new Date().getTime(); //use the current timestamp as the token value
-    $('#download_token_value').val(token);
-
     $('#btnUpload').click(function () {
 
         if ($('#form1').valid()) {
@@ -227,7 +224,6 @@ function DownloadPDF() {
     JL("DownloadPDF").info("Počinjem download PDF potvrde.");
 
     var token = new Date().getTime(); //use the current timestamp as the token value
-    $('#download_token_value').val(token);
 
     $('#generiranjePotvrde').modal();
     blockUIForDownload();
@@ -245,12 +241,10 @@ function SaveFormData() {
             "msg": "Saving form data:",
             "PrijedlogStrucnogRadaFileName": document.getElementById('PrijedlogStrucnogRada').files[0].name,
             "PopratnaDokumentacijaFileName": document.getElementById('PopratnaDokumentacija').files[0].name,
-            "DownloadToken": $("#download_token_value").val()
         });
 
     formData.append('PrijedlogStrucnogRadaFileName', document.getElementById('PrijedlogStrucnogRada').files[0].name);
     formData.append('PopratnaDokumentacijaFileName', document.getElementById('PopratnaDokumentacija').files[0].name);
-    formData.append('DownloadToken', $("#download_token_value").val());
 
     jQuery(function ($) {
         $.ajax({
@@ -368,19 +362,19 @@ $(function () {
 
 var fileDownloadCheckTimer;
 function blockUIForDownload() {
-    var token = $('#download_token_value').val();
 
     fileDownloadCheckTimer = window.setInterval(function () {
-        var cookieValue = $.cookie('fileDownloadToken');
-        if (cookieValue == token)
+        if ($.cookie('predajaStrucnihRadovaDownloadPDF')) {
             finishDownload();
+        }
     }, 1000);
 }
 
 function finishDownload() {
     window.clearInterval(fileDownloadCheckTimer);
 
-    document.cookie = 'fileDownloadToken' + '=; path=/PredajaStrucnihRadova; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    //$.cookie('fileDownloadToken', null); //clears this cookie value
+    document.cookie = 'predajaStrucnihRadovaDownloadPDF' + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 
     $('#generiranjePotvrde').modal('hide');
 

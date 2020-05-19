@@ -51,7 +51,6 @@
         <form id="form1" role="form" method="post" enctype="multipart/form-data">
             <a href="http://www.hanfa.hr"><img src="~/Content/images/hanfa-logo.png" style="padding:5px;" alt="Company logo" /></a>
 
-            @Html.HiddenFor(model => model.DownloadToken, new { @id = "download_token_value" })
             @Html.ValidationSummary(false, "", new { @class = "text-danger font-weight-bold" })
             @Html.AntiForgeryToken()
 
