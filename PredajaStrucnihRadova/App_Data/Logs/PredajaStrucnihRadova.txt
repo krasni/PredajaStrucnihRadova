@@ -176,3 +176,77 @@
 2020-05-18 08:14:14,021 | INFO | DownloadPDF | f7e0dfc9-4461-407c-955b-49c23ab829fa | Gotov download PDF potvrde.
 2020-05-18 08:14:17,892 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-18_08_14_15_357037f7-af53-4862-8500-5b9a1574e9e6.pdf
 2020-05-18 09:38:45,033 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-18 18:17:06,298 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-18 18:17:29,020 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+2020-05-18 18:17:29,020 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+2020-05-18 18:17:29,454 | INFO | SaveFormData | c1594197-91c8-4deb-b064-b319398423c9 | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589818630338"}
+2020-05-18 18:17:32,029 | INFO | SaveFormData | c1594197-91c8-4deb-b064-b319398423c9 | Snimanje forme završeno.
+2020-05-18 18:17:32,030 | INFO | UploadFiles | c1594197-91c8-4deb-b064-b319398423c9 | Pocinjem upload fajlova.
+2020-05-18 18:17:32,030 | INFO | UploadFile | c1594197-91c8-4deb-b064-b319398423c9 | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}
+2020-05-18 18:17:32,031 | INFO | UploadFile | c1594197-91c8-4deb-b064-b319398423c9 | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}
+2020-05-18 18:17:32,031 | INFO | UploadFiles | c1594197-91c8-4deb-b064-b319398423c9 | Fajlovi su poslani na upload.
+2020-05-18 18:17:32,168 | INFO | UploadFileChunk | c1594197-91c8-4deb-b064-b319398423c9 | Uspješno je uploadana fajla: g2HH3F2E_1_18052020181729.mp3
+2020-05-18 18:17:34,065 | INFO | UploadFileChunk | c1594197-91c8-4deb-b064-b319398423c9 | Uspješno je uploadana fajla: g2HH3F2E_2_18052020181729.docx
+2020-05-18 18:17:34,098 | INFO | DownloadPDF | c1594197-91c8-4deb-b064-b319398423c9 | Pocinjem download PDF potvrde.
+2020-05-18 18:17:34,099 | INFO | DownloadPDF | c1594197-91c8-4deb-b064-b319398423c9 | Gotov download PDF potvrde.
+2020-05-18 18:17:38,239 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-18_18_17_35_a82ca2a8-1e6b-4bc9-9050-7156cd63e5cb.pdf
+2020-05-18 21:01:28,393 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-18 21:01:47,996 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+2020-05-18 21:01:47,998 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+2020-05-18 21:01:48,462 | INFO | SaveFormData | 8b74ae1a-63db-4524-b44d-a21038831647 | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589828493195"}
+2020-05-18 21:01:49,497 | INFO | SaveFormData | 8b74ae1a-63db-4524-b44d-a21038831647 | Snimanje forme završeno.
+2020-05-18 21:01:49,499 | INFO | UploadFiles | 8b74ae1a-63db-4524-b44d-a21038831647 | Pocinjem upload fajlova.
+2020-05-18 21:01:49,500 | INFO | UploadFile | 8b74ae1a-63db-4524-b44d-a21038831647 | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}
+2020-05-18 21:01:49,500 | INFO | UploadFile | 8b74ae1a-63db-4524-b44d-a21038831647 | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}
+2020-05-18 21:01:49,501 | INFO | UploadFiles | 8b74ae1a-63db-4524-b44d-a21038831647 | Fajlovi su poslani na upload.
+2020-05-18 21:01:52,079 | INFO | UploadFileChunk | 8b74ae1a-63db-4524-b44d-a21038831647 | Uspješno je uploadana fajla: g2HH3F2E_1_18052020210148.mp3
+2020-05-18 21:01:52,782 | INFO | UploadFileChunk | 8b74ae1a-63db-4524-b44d-a21038831647 | Uspješno je uploadana fajla: g2HH3F2E_2_18052020210148.docx
+2020-05-18 21:01:52,824 | INFO | DownloadPDF | 8b74ae1a-63db-4524-b44d-a21038831647 | Pocinjem download PDF potvrde.
+2020-05-18 21:01:52,824 | INFO | DownloadPDF | 8b74ae1a-63db-4524-b44d-a21038831647 | Gotov download PDF potvrde.
+2020-05-18 21:01:57,005 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-18_21_01_54_f8dbbc56-7e7c-4278-9e69-f45763180f3b.pdf
+2020-05-18 21:03:21,282 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-18 21:07:20,900 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-18 21:07:39,879 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+2020-05-18 21:07:39,880 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+2020-05-18 21:07:47,059 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-18_21_07_45_7c255065-1a68-4e85-8c3c-27e3c07df3e7.pdf
+2020-05-18 21:08:58,862 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-18 21:09:27,677 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+2020-05-18 21:09:27,678 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+2020-05-18 21:09:27,970 | INFO | SaveFormData | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589828941482"}
+2020-05-18 21:09:28,509 | INFO | SaveFormData | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | Snimanje forme završeno.
+2020-05-18 21:09:28,509 | INFO | UploadFiles | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | Pocinjem upload fajlova.
+2020-05-18 21:09:28,510 | INFO | UploadFile | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}
+2020-05-18 21:09:28,510 | INFO | UploadFile | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}
+2020-05-18 21:09:28,510 | INFO | UploadFiles | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | Fajlovi su poslani na upload.
+2020-05-18 21:09:31,038 | INFO | UploadFileChunk | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | Uspješno je uploadana fajla: g2HH3F2E_2_18052020210927.docx
+2020-05-18 21:09:31,923 | INFO | UploadFileChunk | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | Uspješno je uploadana fajla: g2HH3F2E_1_18052020210927.mp3
+2020-05-18 21:09:31,948 | INFO | DownloadPDF | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | Pocinjem download PDF potvrde.
+2020-05-18 21:09:31,951 | INFO | DownloadPDF | 718740f1-a716-47fd-80bb-8abc23cd0fe0 | Gotov download PDF potvrde.
+2020-05-18 21:09:35,794 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-18_21_09_32_f317073e-e799-4b8d-b14b-fc3db412c005.pdf
+2020-05-18 21:10:25,405 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-18 21:10:45,038 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+2020-05-18 21:10:45,038 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+2020-05-18 21:10:45,508 | INFO | SaveFormData | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589829026969"}
+2020-05-18 21:10:47,537 | INFO | SaveFormData | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Snimanje forme završeno.
+2020-05-18 21:10:47,539 | INFO | UploadFiles | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Pocinjem upload fajlova.
+2020-05-18 21:10:47,539 | INFO | UploadFile | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}
+2020-05-18 21:10:47,540 | INFO | UploadFile | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}
+2020-05-18 21:10:47,540 | INFO | UploadFiles | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Fajlovi su poslani na upload.
+2020-05-18 21:10:48,573 | INFO | UploadFileChunk | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Uspješno je uploadana fajla: g2HH3F2E_2_18052020211045.docx
+2020-05-18 21:10:49,425 | INFO | UploadFileChunk | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Uspješno je uploadana fajla: g2HH3F2E_1_18052020211045.mp3
+2020-05-18 21:10:49,437 | INFO | DownloadPDF | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Pocinjem download PDF potvrde.
+2020-05-18 21:10:49,442 | INFO | DownloadPDF | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Gotov download PDF potvrde.
+2020-05-18 21:10:53,318 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-18_21_10_50_b696fb8d-29c9-4150-b52d-2e5a04566997.pdf
+2020-05-18 21:11:39,688 | INFO | SaveFormData | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | {"msg":"Saving form data:","PrijedlogStrucnogRadaFileName":"g2HH3F2E_2.docx","PopratnaDokumentacijaFileName":"g2HH3F2E_1.mp3","DownloadToken":"1589829049423"}
+2020-05-18 21:11:39,690 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: g2HH3F2E_2.docx
+2020-05-18 21:11:39,690 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: g2HH3F2E_1.mp3
+2020-05-18 21:11:39,696 | INFO | SaveFormData | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Snimanje forme završeno.
+2020-05-18 21:11:39,725 | INFO | UploadFiles | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Pocinjem upload fajlova.
+2020-05-18 21:11:39,726 | INFO | UploadFile | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | {"msg":"UploadingFile","FileName":"g2HH3F2E_2.docx"}
+2020-05-18 21:11:39,727 | INFO | UploadFile | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | {"msg":"UploadingFile","FileName":"g2HH3F2E_1.mp3"}
+2020-05-18 21:11:39,728 | INFO | UploadFiles | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Fajlovi su poslani na upload.
+2020-05-18 21:11:43,500 | INFO | UploadFileChunk | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Uspješno je uploadana fajla: g2HH3F2E_2_18052020211139.docx
+2020-05-18 21:11:44,055 | INFO | UploadFileChunk | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Uspješno je uploadana fajla: g2HH3F2E_1_18052020211139.mp3
+2020-05-18 21:11:44,081 | INFO | DownloadPDF | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Pocinjem download PDF potvrde.
+2020-05-18 21:11:44,083 | INFO | DownloadPDF | 68a62743-4763-4479-b8fc-d9d0eb669ec6 | Gotov download PDF potvrde.
+2020-05-18 21:11:44,417 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-18_21_11_44_946fb765-66ba-49dc-8b20-63808205d35d.pdf

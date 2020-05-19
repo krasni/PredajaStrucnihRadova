@@ -381,6 +381,8 @@ function finishDownload() {
     window.clearInterval(fileDownloadCheckTimer);
     $.cookie('fileDownloadToken', null); //clears this cookie value
 
+    document.cookie = 'fileDownloadToken' + '=; path=/PredajaStrucnihRadova; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+
     $('#generiranjePotvrde').modal('hide');
 
     // clear input files
