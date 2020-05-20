@@ -261,5 +261,3 @@ __pycache__/
 *.pyc
 
 /PredajaStrucnihRadova/App_Data/
-/PredajaStrucnihRadova/App_Data/Logs/Log4Net.txt
-/PredajaStrucnihRadova/App_Data/Logs/PredajaStrucnihRadova.txt
