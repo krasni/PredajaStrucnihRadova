@@ -788,3 +788,21 @@
 2020-05-19 17:35:35,769 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Download potvrde: PotvrdaPrimitka_2020-05-19_17_35_35_62c5509c-01af-46a9-af75-081b9e89f968.pdf
 2020-05-19 17:35:35,995 | INFO | DownloadPDF | 95699320-8e4f-4174-81b7-026feb16854b | Pocinjem download PDF potvrde.
 2020-05-19 17:35:35,995 | INFO | DownloadPDF | 95699320-8e4f-4174-81b7-026feb16854b | Gotov download PDF potvrde.
+2020-05-20 14:10:37,219 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-20 14:10:49,461 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | Browser: Chrome, Version: 81.0, UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+2020-05-20 14:11:08,673 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PrijedlogStrucnogRadaFileName: eeeee111_2.docx
+2020-05-20 14:11:08,674 | INFO | PredajaStrucnihRadova.Controllers.PodaciController | PopratnaDokumentacijaFileName: eeeee111_1.pdf
+2020-05-20 14:11:09,399 | ERROR | PredajaStrucnihRadova.Controllers.PodaciController | Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\Projects\OnlinePredaja\PredajaStrucnihRadova\PredajaStrucnihRadova\App_Data\PrijedloziStrucnihRadova\eeeee111_2_20052020141108.docx'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at PredajaStrucnihRadova.Controllers.PodaciController.UploadFiles() in D:\Projects\HANFAapp\PredajaStrucnihRadova\PredajaStrucnihRadova\Controllers\PodaciController.cs:line 72
+2020-05-20 14:11:10,415 | ERROR | PredajaStrucnihRadova.Controllers.PodaciController | Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\Projects\OnlinePredaja\PredajaStrucnihRadova\PredajaStrucnihRadova\App_Data\PopratnaDokumentacija\eeeee111_1_20052020141108.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at PredajaStrucnihRadova.Controllers.PodaciController.UploadFiles() in D:\Projects\HANFAapp\PredajaStrucnihRadova\PredajaStrucnihRadova\Controllers\PodaciController.cs:line 72
