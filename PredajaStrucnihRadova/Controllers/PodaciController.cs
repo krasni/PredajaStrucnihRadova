@@ -59,12 +59,12 @@ namespace PredajaStrucnihRadova.Controllers
 
                     if (files[0].FileName.Contains("_2_"))
                     {
-                        UploadPath = Server.MapPath("~/App_Data/PrijedloziStrucnihRadova");
+                        UploadPath = System.Configuration.ConfigurationManager.AppSettings["PrijedloziStrucnihRadovaUploadFolder"];
                     }
 
                     if (files[0].FileName.Contains("_1_"))
                     {
-                        UploadPath = Server.MapPath("~/App_Data/PopratnaDokumentacija");
+                        UploadPath = System.Configuration.ConfigurationManager.AppSettings["PopratnaDokumentacijaUploadFolder"];
                     }
 
                     string path = Path.Combine(UploadPath, files[0].FileName); ;
