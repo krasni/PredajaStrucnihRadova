@@ -374,7 +374,9 @@ function finishDownload() {
     window.clearInterval(fileDownloadCheckTimer);
 
     //$.cookie('fileDownloadToken', null); //clears this cookie value
-    document.cookie = 'predajaStrucnihRadovaDownloadPDF' + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+   // document.cookie = 'predajaStrucnihRadovaDownloadPDF' + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+
+    setCookie('predajaStrucnihRadovaDownloadPDF', 'null', -1);
 
     $('#generiranjePotvrde').modal('hide');
 
@@ -383,4 +385,12 @@ function finishDownload() {
     $("#PopratnaDokumentacija").val(null);
 
     $('#prijavaPredana').fadeIn();
+}
+
+// Cookie functions from w3schools
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
