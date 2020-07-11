@@ -1,7 +1,7 @@
 ﻿
 $().ready(function () {
 
-    console.log("ef");
+    console.log("bc");
 
     $('#btnUpload').click(function () {
 
